@@ -61,7 +61,6 @@ VALUES
         'karel.vopicka.com',
         '987889041'
     );
-
 INSERT INTO
     trainer (first_name, last_name, email, phone, expertise)
 VALUES
@@ -100,7 +99,6 @@ VALUES
         '391630343',
         'Python advanced'
     );
-
 INSERT INTO
     course (course_name, description, trainer_id)
 VALUES
@@ -109,11 +107,34 @@ VALUES
     ('GIT', 'verzovaci system GIT', 3),
     ('SQL', 'databaze', 4),
     ('Python advanced', 'Pokrocily Python', 5);
-
--- INSERT INTO
---     student_course_signup (course_id, student_id)
--- VALUES
---     (1, 1),
---     (2, 1),
---     (2, 2),
---     (3, 2);
+INSERT INTO
+    student_course_signup (course_id, student_id)
+VALUES
+    (1, 1),
+    (1, 2),
+    (1, 4),
+    (1, 6),
+    (1, 7),
+    (1, 8),
+    (1, 9),
+    (2, 1),
+    (2, 3),
+    (2, 10),
+    (3, 1),
+    (3, 2),
+    (3, 3),
+    (3, 4),
+    (3, 5),
+    (3, 6),
+    (3, 7),
+    (3, 8),
+    (3, 8),
+    (3, 9),
+    (3, 10),
+    (4, 3),
+    (4, 1),
+    (4, 7),
+    (4, 7),
+    (5, 3),
+    (5, 10),
+    (5, 6);
