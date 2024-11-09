@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "sda_academy",
+            "database": "sda_academy",
+            "username": "postgres",
+            "password": "admin"
+        }
+    ]
+}

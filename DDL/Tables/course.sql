@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS course;
+
+CREATE TABLE course (
+    id SERIAL PRIMARY KEY,
+    course_name VARCHAR(50) NOT NULL
+);
