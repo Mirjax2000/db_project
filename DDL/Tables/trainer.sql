@@ -1,3 +1,4 @@
+-- DROP TABLE IF EXISTS trainer;
 -- CREATE TABLE
 --     trainer (
 --         trainer_id SERIAL PRIMARY KEY,
@@ -7,7 +8,6 @@
 --         phone VARCHAR(10) NOT NULL,
 --         expertise VARCHAR(20)
 --     );
-
 INSERT INTO
     trainer (first_name, last_name, email, phone, expertise)
 VALUES
