@@ -111,6 +111,7 @@
 -- INSERT INTO
 --     student_course_signup (course_id, student_id)
 -- VALUES
+--     (6, 3),
 --     (1, 1),
 --     (1, 2),
 --     (1, 4),
