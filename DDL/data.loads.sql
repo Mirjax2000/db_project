@@ -62,7 +62,6 @@
 --     (2, 1),
 --     (2, 2),
 --     (3, 2);
-#
 INSERT INTO
     student (first_name, last_name, email, phone)
 VALUES
