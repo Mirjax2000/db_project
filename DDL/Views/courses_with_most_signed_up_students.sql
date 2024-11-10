@@ -5,13 +5,13 @@ DROP VIEW IF EXISTS top_5;
 CREATE VIEW
     top_5 AS
 SELECT
-    course_name,
-    COUNT(student_id) AS students
+    c.course_name,
+    COUNT(scs.student_id) AS students
 FROM
-    student_course_signup
-    INNER JOIN course ON course.course_id = student_course_signup.course_id
+    student_course_signup scs
+    INNER JOIN course c ON c.course_id = scs.course_id
 GROUP BY
-    course_name
+    c.course_name
 ORDER BY
     students DESC
 LIMIT
