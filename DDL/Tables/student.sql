@@ -1,4 +1,4 @@
--- DROP TABLE IF EXISTS student;
+DROP TABLE IF EXISTS student;
 CREATE TABLE
     student (
         student_id SERIAL PRIMARY KEY,

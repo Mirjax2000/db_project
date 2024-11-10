@@ -1,4 +1,4 @@
--- DROP TABLE IF EXISTS trainer;
+DROP TABLE IF EXISTS trainer;
 CREATE TABLE
     trainer (
         trainer_id SERIAL PRIMARY KEY,
