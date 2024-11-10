@@ -1,10 +1,9 @@
 <h1>School project</h1>
-Vytvareni databaze a vnotrni structury.
+Vytvareni databaze a vnitrni structury.
 
 <h2>ER a DB diagram in DIAGRAMS folder</h2>
 
-Co jsem se zde naucil.
-<hr>
+<h3>Co jsem se zde naucil.</h3>
 
 1. Navrhovat databaze prostrednictvim diagramu.
 2. Tyto diagramy nasledne pouzit pro kodovani SQL.
