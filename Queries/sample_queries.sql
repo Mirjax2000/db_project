@@ -1,2 +1,2 @@
 -- zde ulozte par SELECT dotazu vyuzivajicich JOIN, prip. UNION nad tabulkami v projektu
-SELECT * FROM address;
+SELECT * FROM top_5;
