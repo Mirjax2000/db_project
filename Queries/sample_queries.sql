@@ -18,12 +18,12 @@
 -- 
 -- priklad 2
 -- 
-SELECT
-    email
-FROM
-    student
-UNION
-SELECT
-    email
-FROM
-    trainer
+-- SELECT
+--     email
+-- FROM
+--     student
+-- UNION
+-- SELECT
+--     email
+-- FROM
+--     trainer
