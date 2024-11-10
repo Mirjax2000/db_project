@@ -7,11 +7,17 @@ DROP VIEW IF EXISTS fullness;
 CREATE VIEW
     fullness AS
 SELECT
-    course_id,
-    COUNT(student_id)
+    trainer.first_name,
+    trainer.last_name,
+    COUNT(student_course_signup.course_id) AS pocet_studentu
 FROM
     student_course_signup
+    INNER JOIN course ON student_course_signup.course_id = course.course_id
+    INNER JOIN trainer ON trainer.trainer_id = course.trainer_id
 GROUP BY
-    course_id;
-
--- tady to musim napojit na course tabulku na id_trainer
+    trainer.first_name,
+    trainer.last_name
+ORDER BY
+    pocet_studentu DESC
+LIMIT
+    3;
