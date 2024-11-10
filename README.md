@@ -3,7 +3,7 @@ Vytvareni databaze a vnitrni structury.
 
 <h2>ER a DB diagram in DIAGRAMS folder</h2>
 
-<h3>Co jsem se zde naucil.</h3>
+<h3>Co jsem se zde naucil:</h3>
 
 1. Navrhovat databaze prostrednictvim diagramu.
 2. Tyto diagramy nasledne pouzit pro kodovani SQL.
