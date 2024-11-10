@@ -1,12 +1,13 @@
 <h1>School project</h1>
-Creating database and design inner structure
+Vytvareni databaze a vnotrni structury.
 
 <h2>ER a DB diagram in DIAGRAMS folder</h2>
 
 Co jsem se zde naucil.
+<br>
 
 1. Navrhovat databaze prostrednictvim diagramu.
-2. Tyto diagramy nasledne pouzit pro kdovani SQL.
+2. Tyto diagramy nasledne pouzit pro kodovani SQL.
 3. Primarni a cizi klice, typovou anotaci atd.
 4. Pripravit data k naplneni databaze.
 5. Pripravit VIEWS.
