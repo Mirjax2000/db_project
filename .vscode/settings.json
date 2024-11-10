@@ -5,8 +5,8 @@
             "server": "localhost",
             "port": 5432,
             "driver": "PostgreSQL",
-            "name": "sda_academy",
-            "database": "sda_academy",
+            "name": "academy",
+            "database": "academy",
             "username": "postgres",
             "password": "admin"
         }
