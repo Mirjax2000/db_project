@@ -6,7 +6,7 @@ CREATE TABLE
         first_name VARCHAR(50) NOT NULL,
         last_name VARCHAR(200) NOT NULL,
         email VARCHAR(100) NOT NULL,
-        address_id INT,
+        address_id INT NOT NULL,
         PRIMARY KEY (student_id),
         FOREIGN KEY (address_id) REFERENCES address (address_id)
     );

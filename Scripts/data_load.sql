@@ -18,44 +18,69 @@ INSERT INTO
     student (first_name, last_name, email, address_id)
 VALUES
     ('David', 'Zelenac', 'david.zelenac@gamil.com', 1),
-    ('Josef', 'Hracicka', 'josef.hracicka@gmail.com', 2),
-    ('Karel', 'Pohadkar', 'karel.pohadkar@gmail.com', 3),
+    (
+        'Josef',
+        'Hracicka',
+        'josef.hracicka@gmail.com',
+        2
+    ),
+    (
+        'Karel',
+        'Pohadkar',
+        'karel.pohadkar@gmail.com',
+        3
+    ),
     ('Filip', 'Buchta', 'filip.buchta@gmail.com', 4),
-    ('Filip', 'Pohadkomil', 'filip.ohadkomil@seznam.cz', 5),
-    ('Jaroslav', 'Zmrzlina', 'jaroslav.zmrzlina@gmail.com', 6),
-    ('Karel', 'Pohadkar', 'karel.pohadkar@gmail.com', 7),
+    (
+        'Filip',
+        'Pohadkomil',
+        'filip.ohadkomil@seznam.cz',
+        5
+    ),
+    (
+        'Jaroslav',
+        'Zmrzlina',
+        'jaroslav.zmrzlina@gmail.com',
+        6
+    ),
+    (
+        'Karel',
+        'Pohadkar',
+        'karel.pohadkar@gmail.com',
+        7
+    ),
     ('Jakub', 'Zazrak', 'jakub.Zazrak@gmail.com', 8),
-    ('Arnost', 'Mrkvicka', 'arnost.mrkvicka@mrkev.cz', 9),
+    (
+        'Arnost',
+        'Mrkvicka',
+        'arnost.mrkvicka@mrkev.cz',
+        9
+    ),
     ('Karel', 'Vopicka', 'karel.vopicka.com', 10);
 
 -- 
 INSERT INTO
-    trainer (first_name, last_name, email, expertise)
+    trainer (first_name, last_name, email, expertise_id)
 VALUES
+    ('Adam', 'Bublina', 'adam.bublina@sdacdmy.com', 1),
+    ('Petr', 'Cmoudik', 'petr.cmoudik@sdacdemy.com', 1),
     (
-        'Adam',
-        'Bublina',
-        'adam.bublina@sdacdmy.com',
-        'Python Basics, Machine Learning'
+        'Jan',
+        'Duchacek',
+        'jan.duchacek@sdacdemy.com',
+        'GIT'
     ),
-    (
-        'Petr',
-        'Cmoudik',
-        'petr.cmoudik@sdacdemy.com',
-        'HTML,CSS, Python Basics'
-    ),
-    ('Jan', 'Duchacek', 'jan.duchacek@sdacdemy.com', 'GIT'),
     (
         'David',
         'Srdicko',
         'david.srdicko@sdacdemy.com',
-        'SQL, Database Design'
+        4
     ),
     (
         'Robert',
         'Rumburak',
         'petr.rumburak@sdacdemy.com',
-        'Python Advanced'
+        2
     );
 
 -- 
@@ -68,8 +93,18 @@ VALUES
         '2024-11-15 09:00:00',
         '2024-12-15 16:00:00'
     ),
-    ('GIT', 3, '2025-01-10 09:00:00', '2025-02-10 16:00:00'),
-    ('SQL', 4, '2025-03-05 09:00:00', '2025-04-05 16:00:00'),
+    (
+        'GIT',
+        3,
+        '2025-01-10 09:00:00',
+        '2025-02-10 16:00:00'
+    ),
+    (
+        'SQL',
+        4,
+        '2025-03-05 09:00:00',
+        '2025-04-05 16:00:00'
+    ),
     (
         'Machine Learning',
         1,
