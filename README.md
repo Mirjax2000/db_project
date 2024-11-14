@@ -10,17 +10,24 @@
 
 -   [Author](#author)
 
-### overview
+## overview
 Vytvareni databaze a vnitrni structury.
 
 ### Screenshot
 ![](./Diagrams/db_diagram.png)
+
+## My process
+Zacal jsem s vytovrenim Diagramu v draw.io, strukturu jsem prevedl do DDL syntaxe.
+nasledne vytvoril script na zaplneni databaze
+testovani konzistence
+vytvareni Views
 
 ### Built with
 draw.io
 vs-code
 SQL Tools extension
 postgres 
+
 
 
 ### what-i-learned
