@@ -21,17 +21,17 @@ Vytvareni databaze a vnitrni structury.
 
 ## Proces
 
-Zacal jsem s vytvorenim Diagramu v draw.io.
-Strukturu jsem prevedl do SQL syntaxe. DDL.
-Nasledne vytvoril script na zaplneni databaze DML a TCL
-testovani konzistence.
-vytvareni Dotazu a Views. DML
+1.Zacal jsem s vytvorenim Diagramu v draw.io.
+2.Strukturu jsem prevedl do SQL syntaxe. DDL.
+3.Nasledne vytvoril script na zaplneni databaze DML a TCL
+4.testovani konzistence.
+5.vytvareni Dotazu a Views. DML
 
 ### Nastroje
 
-Databaze Postgres,
-draw.io,
-vs-code,
+Databaze Postgres<br>
+draw.io<br>
+vs-code<br>
 SQL Tools extension
 
 ### Co jsem se zde naucil
