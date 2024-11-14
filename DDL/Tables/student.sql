@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS student CASCADE;
+-- 
 CREATE TABLE student (
     student_id SERIAL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
