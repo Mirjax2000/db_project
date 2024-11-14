@@ -1,10 +1,9 @@
-DROP TABLE IF EXISTS topic;
+-- DROP TABLE IF EXISTS topic;
 
 CREATE TABLE
     topic (
-        topic_id SERIAL,
-        topic_name VARCHAR(100) NOT NULL,
-        PRIMARY KEY (topic_id)
+        topic_id SERIAL PRIMARY KEY,
+        topic_name VARCHAR(100) UNIQUE NOT NULL
     );
 
 INSERT INTO

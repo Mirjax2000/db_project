@@ -1,9 +1,8 @@
-DROP TABLE IF EXISTS address;
+-- DROP TABLE IF EXISTS address;
 
 CREATE TABLE
     address (
-        address_id SERIAL,
+        address_id SERIAL PRIMARY KEY,
         street VARCHAR(100) NOT NULL,
         city VARCHAR(100) NOT NULL,
-        PRIMARY KEY (address_id)
     );
