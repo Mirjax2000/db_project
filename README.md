@@ -2,14 +2,14 @@
 
 ## Table of contents
 
-- [Prehled](#overview)
+- [Prehled](#prehled)
   - [Screenshot](#screenshot)
-- [Proces](#my-process)
+- [Proces](#Proces)
 
-  - [Nastroje](#built-with)
-  - [Co jsem se zde naucil](#what-i-learned)
+  - [Nastroje](#Nastroje)
+  - [Co jsem se zde naucil](#Co jsem se zde naucil)
 
-- [Author](#author)
+- [Author](#Author)
 
 ## prehled
 
