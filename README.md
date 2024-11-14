@@ -21,11 +21,11 @@ Vytvareni databaze a vnitrni structury.
 
 ## Proces
 
-1.Zacal jsem s vytvorenim Diagramu v draw.io.
-2.Strukturu jsem prevedl do SQL syntaxe. DDL.
-3.Nasledne vytvoril script na zaplneni databaze DML a TCL
-4.testovani konzistence.
-5.vytvareni Dotazu a Views. DML
+1. Zacal jsem s vytvorenim Diagramu v draw.io.
+2. Strukturu jsem prevedl do SQL syntaxe. DDL.
+3. Nasledne vytvoril script na zaplneni databaze DML a TCL
+4. testovani konzistence.
+5. vytvareni Dotazu a Views. DML
 
 ### Nastroje
 
