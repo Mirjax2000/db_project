@@ -1,4 +1,4 @@
-<h1>School project</h1>
+<h1>Skolni project SQL DB</h1>
 
 ## Table of contents
 
@@ -13,7 +13,7 @@
 
 ## prehled
 
-Vytvareni databaze a vnitrni structury.
+Vytvareni databaze a vnitrni struktury.
 
 ### Screenshot
 
