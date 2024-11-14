@@ -24,7 +24,7 @@ Vytvareni databaze a vnitrni structury.
 1. Zacal jsem s vytvorenim Diagramu v draw.io.
 2. Strukturu jsem prevedl do SQL syntaxe. DDL.
 3. Nasledne vytvoril script na zaplneni databaze DML a TCL
-4. testovani konzistence.
+4. Testovani konzistence.
 5. vytvareni Dotazu a Views. DML
 
 ### Nastroje
@@ -34,7 +34,7 @@ draw.io<br>
 vs-code<br>
 SQL Tools extension
 
-### Co jsem se naucil
+### Co jsem se zde naucil
 
 1. Navrhovat databaze prostrednictvim diagramu.
 2. Tyto diagramy nasledne pouzit pro kodovani SQL.
