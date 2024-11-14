@@ -2,27 +2,28 @@
 
 ## Table of contents
 
--   [Overview](#overview)
+-   [Prehled](#overview)
     -   [Screenshot](#screenshot)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
+-   [Proces](#my-process)
+    -   [Nastroje](#built-with)
+    -   [Co jsem se zde naucil](#what-i-learned)
 
 -   [Author](#author)
 
-## overview
+## prehled
 Vytvareni databaze a vnitrni structury.
 
 ### Screenshot
 ![](./Diagrams/db_diagram.png)
 
-## My process
-Zacal jsem s vytovrenim Diagramu v draw.io, strukturu jsem prevedl do DDL syntaxe.
-nasledne vytvoril script na zaplneni databaze
-testovani konzistence
-vytvareni Views
+## Proces
+Zacal jsem s vytvorenim Diagramu v draw.io.
+Strukturu jsem prevedl do SQL syntaxe. DDL.
+Nasledne vytvoril script na zaplneni databaze DML a TCL
+testovani konzistence.
+vytvareni Dotazu a Views. DML
 
-### Built with
+### Nastroje
 draw.io
 vs-code
 SQL Tools extension
@@ -30,8 +31,7 @@ postgres
 
 
 
-### what-i-learned
-<h3>Co jsem se zde naucil:</h3>
+### Co jsem se zde naucil
 
 1. Navrhovat databaze prostrednictvim diagramu.
 2. Tyto diagramy nasledne pouzit pro kodovani SQL.
