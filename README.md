@@ -7,7 +7,7 @@
 - [Proces](#Proces)
 
   - [Nastroje](#Nastroje)
-  - [Co jsem se zde naucil](#Co jsem se zde naucil)
+  - [Co jsem se zde naucil](#Co_jsem_se_naucil)
 
 - [Author](#Author)
 
@@ -34,7 +34,7 @@ draw.io<br>
 vs-code<br>
 SQL Tools extension
 
-### Co jsem se zde naucil
+### Co_jsem_se_naucil
 
 1. Navrhovat databaze prostrednictvim diagramu.
 2. Tyto diagramy nasledne pouzit pro kodovani SQL.
