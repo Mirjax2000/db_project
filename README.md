@@ -2,21 +2,25 @@
 
 ## Table of contents
 
--   [Prehled](#overview)
-    -   [Screenshot](#screenshot)
--   [Proces](#my-process)
-    -   [Nastroje](#built-with)
-    -   [Co jsem se zde naucil](#what-i-learned)
+- [Prehled](#overview)
+  - [Screenshot](#screenshot)
+- [Proces](#my-process)
 
--   [Author](#author)
+  - [Nastroje](#built-with)
+  - [Co jsem se zde naucil](#what-i-learned)
+
+- [Author](#author)
 
 ## prehled
+
 Vytvareni databaze a vnitrni structury.
 
 ### Screenshot
+
 ![](./Diagrams/db_diagram.png)
 
 ## Proces
+
 Zacal jsem s vytvorenim Diagramu v draw.io.
 Strukturu jsem prevedl do SQL syntaxe. DDL.
 Nasledne vytvoril script na zaplneni databaze DML a TCL
@@ -24,12 +28,11 @@ testovani konzistence.
 vytvareni Dotazu a Views. DML
 
 ### Nastroje
-draw.io
-vs-code
+
+Databaze Postgres,
+draw.io,
+vs-code,
 SQL Tools extension
-postgres 
-
-
 
 ### Co jsem se zde naucil
 
@@ -42,4 +45,5 @@ postgres
 7. Celkovou spravu nad jednoduchou databazi - CRUD.
 
 ### Author
+
 Miroslav Viktorin
