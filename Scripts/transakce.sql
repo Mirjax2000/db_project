@@ -46,7 +46,8 @@ CREATE TABLE course (
     trainer_id SMALLINT NOT NULL REFERENCES trainer (trainer_id),
     start_date TIMESTAMP NOT NULL,
     end_date TIMESTAMP NOT NULL,
-    CONSTRAINT valid_date CHECK (end_date > start_date)
+    CONSTRAINT valid_date CHECK (end_date > start_date),
+    UNIQUE (trainer_id, start_date, end_date)
 );
 -- 
 CREATE TABLE trainer_assigments (

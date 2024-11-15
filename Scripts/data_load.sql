@@ -31,7 +31,12 @@ VALUES ('Main St 123', 'Springfield'),
     ('Juniper St 2406', 'Crestview'),
     ('Laurel Dr 2507', 'Oakridge'),
     ('Palm Ave 2608', 'Sandstone'),
-    ('Sequoia Blvd 2709', 'Shadytown');
+    ('Sequoia Blvd 2709', 'Shadytown'),
+    ('Oakwood Dr 808', 'Pineville'),
+    ('Sunrise St 909', 'Riverbend'),
+    ('Maple Ln 1010', 'Summerville'),
+    ('Elmwood Rd 1111', 'Hometown'),
+    ('Willow Blvd 1212', 'Lakeview');
 -- 
 INSERT INTO title (title_name)
 VALUES ('Python Basics'),

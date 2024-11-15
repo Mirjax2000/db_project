@@ -7,8 +7,7 @@
 --     UNIQUE (street, city)
 -- );
 INSERT INTO address (street, city)
-VALUES 
-    ('Main St 123', 'Springfield'),
+VALUES ('Main St 123', 'Springfield'),
     ('Oak Ave 456', 'Rivertown'),
     ('Maple Rd 789', 'Lakeside'),
     ('Sunset Blvd 101', 'Hilltop'),
@@ -37,11 +36,7 @@ VALUES
     ('Juniper St 2406', 'Crestview'),
     ('Laurel Dr 2507', 'Oakridge'),
     ('Palm Ave 2608', 'Sandstone'),
-    ('Sequoia Blvd 2709', 'Shadytown');
-
-
-    INSERT INTO address (street, city)
-VALUES
+    ('Sequoia Blvd 2709', 'Shadytown'),
     ('Oakwood Dr 808', 'Pineville'),
     ('Sunrise St 909', 'Riverbend'),
     ('Maple Ln 1010', 'Summerville'),
