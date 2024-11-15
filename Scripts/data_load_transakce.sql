@@ -394,18 +394,14 @@ VALUES -- studenti
     -- Python advanced course
     (2, 1),
     (2, 3),
-    -- (2, 5), -- uz nechce pokracovat
     (2, 7),
     (2, 9),
     (2, 11),
     (2, 13),
-    -- (2, 15), -- uz nechce pokracovat
     (2, 17),
     (2, 19),
-    -- (2, 21), -- uz nechce pokracovat
     (2, 23),
     (2, 25),
-    -- (2, 27), -- uz nechce pokracovat
     (2, 29);
 -- 
 INSERT INTO student_signup(course_id, student_id)
@@ -437,11 +433,9 @@ VALUES -- studenti
     (5, 10),
     (5, 12),
     (5, 14),
-    -- (5, 16), -- uz nechce pokracovat
     (5, 18),
     (5, 20),
     (5, 22),
-    -- (5, 24), -- uz nechce pokracovat
     (5, 26),
     (5, 28),
     (5, 30);
@@ -451,11 +445,9 @@ VALUES -- studenti
     -- Python good practise
     (8, 1),
     (8, 3),
-    (8, 5),
     (8, 9),
     (8, 11),
     (8, 13),
-    (8, 17),
     (8, 23);
 -- 
 INSERT INTO student_signup(course_id, student_id)

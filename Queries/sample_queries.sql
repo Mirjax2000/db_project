@@ -1,29 +1,9 @@
 -- zde ulozte par SELECT dotazu vyuzivajicich JOIN, prip. UNION nad tabulkami v projektu
 -- 
--- priklad 1
+-- priklad 1 - adresy vsech / new_views
+-- SELECT *
+-- FROM address_list;
 -- 
--- SELECT
---     s.first_name,
---     s.last_name,
---     a.city,
---     a.street
--- FROM
---     student s
---     INNER JOIN address a ON a.address_id = s.address_id
--- GROUP BY
---     s.first_name,
---     s.last_name,
---     a.city,
---     a.street;
--- 
--- priklad 2
--- 
--- SELECT
---     email
--- FROM
---     student
--- UNION
--- SELECT
---     email
--- FROM
---     trainer
+-- priklad 2 seznam studentu / new_views
+-- SELECT *
+-- FROM student_list;
