@@ -452,36 +452,18 @@ VALUES -- studenti
     (8, 1),
     (8, 3),
     (8, 5),
-    -- (8, 7), -- uz nechce pokracovat
     (8, 9),
     (8, 11),
     (8, 13),
-    -- (8, 15), -- uz nechce pokracovat
     (8, 17),
-    (8, 19),
-    -- (8, 21), -- uz nechce pokracovat
-    (8, 23),
-    (8, 25),
-    -- (8, 27), -- uz nechce pokracovat
-    (8, 29);
+    (8, 23);
 -- 
 INSERT INTO student_signup(course_id, student_id)
 VALUES -- studenti
-    -- Machine learning
-    -- (7, 1), -- uz nechce pokracovat
-    (7, 3),
-    -- (2, 5), -- uz nechce pokracovat
     (7, 7),
-    (7, 9),
-    -- (7, 11), -- uz nechce pokracovat
-    (7, 13),
-    -- (2, 15), -- uz nechce pokracovat
     (7, 17),
     (7, 19),
-    -- (2, 21), -- uz nechce pokracovat
-    -- (7, 23), -- uz nechce pokracovat
     (7, 25),
-    -- (2, 27), -- uz nechce pokracovat
     (7, 29);
 --
 -- konec transakce
