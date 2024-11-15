@@ -5,14 +5,14 @@ CREATE VIEW student_list AS
 SELECT s.first_name AS jmeno,
     s.last_name AS prijmeni,
     STRING_AGG(t.title_name, ', ') AS kurzy,
-    COUNT (c.course_id) AS pocet_kurzu
+    COUNT (c.course_id) AS "pocet kurzu"
 FROM student_signup AS ss
     INNER JOIN course AS c ON ss.course_id = c.course_id
     INNER JOIN title AS t ON c.course_id = t.title_id
     INNER JOIN student AS s ON ss.student_id = s.student_id
 GROUP BY prijmeni,
     jmeno
-ORDER BY pocet_kurzu DESC;
+ORDER BY "pocet kurzu" DESC;
 -- 
 -- vypis vsech adres
 DROP VIEW IF EXISTS address_list;
