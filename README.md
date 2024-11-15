@@ -47,3 +47,4 @@ SQL Tools extension
 ### Author
 
 Miroslav Viktorin
+miroslav.viktorin@seznam.cz
