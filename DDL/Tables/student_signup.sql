@@ -75,40 +75,98 @@
 --     (2, 25),
 --     (2, 27),
 --     (2, 29);
-INSERT INTO student_signup(course_id, student_id)
-VALUES -- studenti
-    -- SQL
-    (4, 2),
-    (4, 4),
-    (4, 6),
-    (4, 8),
-    (4, 10),
-    (4, 12),
-    (4, 14),
-    (4, 16),
-    (4, 18),
-    (4, 20),
-    (4, 22),
-    (4, 24),
-    (4, 26),
-    (4, 28),
-    (4, 30);
 -- 
-INSERT INTO student_signup(course_id, student_id)
-VALUES -- studenti
-    -- DB DESIGN
-    (5, 2),
-    (5, 4),
-    (5, 6),
-    (5, 8),
-    (5, 10),
-    (5, 12),
-    (5, 14),
-    (5, 16),
-    (5, 18),
-    (5, 20),
-    (5, 22),
-    (5, 24),
-    (5, 26),
-    (5, 28),
-    (5, 30);
+-- INSERT INTO student_signup(course_id, student_id)
+-- VALUES -- studenti
+--     -- SQL
+--     (4, 2),
+--     (4, 4),
+--     (4, 6),
+--     (4, 8),
+--     (4, 10),
+--     (4, 12),
+--     (4, 14),
+--     (4, 16),
+--     (4, 18),
+--     (4, 20),
+--     (4, 22),
+--     (4, 24),
+--     (4, 26),
+--     (4, 28),
+--     (4, 30);
+-- -- 
+-- INSERT INTO student_signup(course_id, student_id)
+-- VALUES -- studenti
+--     -- DB DESIGN
+--     (5, 2),
+--     (5, 4),
+--     (5, 6),
+--     (5, 8),
+--     (5, 10),
+--     (5, 12),
+--     (5, 14),
+--     (5, 16),
+--     (5, 18),
+--     (5, 20),
+--     (5, 22),
+--     (5, 24),
+--     (5, 26),
+--     (5, 28),
+--     (5, 30);
+-- 
+-- INSERT INTO student_signup(course_id, student_id)
+-- VALUES -- studenti
+--     -- Python good practise
+--     (8, 1),
+--     (8, 3),
+--     (8, 5),
+--     -- (8, 7), -- uz nechce pokracovat
+--     (8, 9),
+--     (8, 11),
+--     (8, 13),
+--     -- (8, 15), -- uz nechce pokracovat
+--     (8, 17),
+--     (8, 19),
+--     (8, 21),
+--     (8, 23),
+--     (8, 25),
+--     -- (8, 27), -- uz nechce pokracovat
+--     (8, 29);
+-- -- 
+-- INSERT INTO student_signup(course_id, student_id)
+-- VALUES -- studenti
+--     -- Front End
+--     (8, 1),
+--     (8, 3),
+--     (8, 5),
+--     (8, 7),
+--     (8, 9),
+--     (8, 11),
+--     (8, 13),
+--     (8, 15),
+--     (8, 17),
+--     (8, 19),
+--     (8, 21),
+--     (8, 23),
+--     (8, 25),
+--     (8, 27),
+--     (8, 29);
+-- 
+-- INSERT INTO student_signup(course_id, student_id)
+-- VALUES -- studenti
+--     -- Machine learning
+--     -- (7, 1), -- uz nechce pokracovat
+--     (7, 3),
+--     -- (2, 5), -- uz nechce pokracovat
+--     (7, 7),
+--     (7, 9),
+--     -- (7, 11), -- uz nechce pokracovat
+--     (7, 13),
+--     -- (2, 15), -- uz nechce pokracovat
+--     (7, 17),
+--     (7, 19),
+--     -- (2, 21), -- uz nechce pokracovat
+--     -- (7, 23), -- uz nechce pokracovat
+--     (7, 25),
+--     -- (2, 27), -- uz nechce pokracovat
+--     (7, 29);
