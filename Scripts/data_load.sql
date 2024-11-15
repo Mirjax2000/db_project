@@ -1,162 +1,365 @@
 -- zde budou insert statements pro vsechny tabulky v projektu
-INSERT INTO
-    address (street, city, zip_code)
-VALUES
-    ('Main St 123', 'Springfield', '12345'),
-    ('Oak Ave 456', 'Rivertown', '67890'),
-    ('Maple Rd 789', 'Lakeside', '11223'),
-    ('Sunset Blvd 101', 'Hilltop', '33445'),
-    ('Elm St 202', 'Greenfield', '55667'),
-    ('River Rd 303', 'Brookville', '77889'),
-    ('Park Ave 404', 'Clearwater', '99001'),
-    ('Cedar Ln 505', 'Woodland', '22334'),
-    ('Pine St 606', 'Evergreen', '44556'),
-    ('Birch Rd 707', 'Rockville', '66778');
-
+INSERT INTO address (street, city)
+VALUES ('Main St 123', 'Springfield'),
+    ('Oak Ave 456', 'Rivertown'),
+    ('Maple Rd 789', 'Lakeside'),
+    ('Sunset Blvd 101', 'Hilltop'),
+    ('Elm St 202', 'Greenfield'),
+    ('River Rd 303', 'Brookville'),
+    ('Park Ave 404', 'Clearwater'),
+    ('Cedar Ln 505', 'Woodland'),
+    ('Pine St 606', 'Evergreen'),
+    ('Birch Rd 707', 'Rockville'),
+    ('Willow St 808', 'Sunnyvale'),
+    ('Aspen Dr 909', 'Meadowville'),
+    ('Chestnut Ln 1001', 'Forestview'),
+    ('Sycamore Blvd 1102', 'Mountainview'),
+    ('Spruce Ave 1203', 'Valleytown'),
+    ('Hickory Rd 1304', 'Lakeshore'),
+    ('Fir Ln 1405', 'Seaside'),
+    ('Ash St 1506', 'Pinewood'),
+    ('Cypress Ave 1607', 'Hillcrest'),
+    ('Magnolia Rd 1708', 'Rivervale'),
+    ('Poplar Ln 1809', 'Greenwood'),
+    ('Dogwood Dr 1901', 'Silverlake'),
+    ('Alder St 2002', 'Meadowbrook'),
+    ('Beech Ave 2103', 'Clifftown'),
+    ('Redwood Rd 2204', 'Timberville'),
+    ('Hemlock Ln 2305', 'Stonefield'),
+    ('Juniper St 2406', 'Crestview'),
+    ('Laurel Dr 2507', 'Oakridge'),
+    ('Palm Ave 2608', 'Sandstone'),
+    ('Sequoia Blvd 2709', 'Shadytown');
 -- 
-INSERT INTO
-    student (first_name, last_name, email, address_id)
-VALUES
-    ('David', 'Zelenac', 'david.zelenac@gamil.com', 1),
+INSERT INTO title (title_name)
+VALUES ('Python Basics'),
+    -- 1 kurz 
+    ('Python Advanced'),
+    -- 2 kurz
+    ('GIT'),
+    -- 3 kurz
+    ('SQL'),
+    -- 4 kurz
+    ('Database Design'),
+    -- 5 kurz
+    ('Front End'),
+    -- 6 kurz
+    ('Machine Learning'),
+    -- 7 kurz
+    ('Python Good Practise');
+-- 8 kurz
+-- 
+INSERT INTO student (
+        first_name,
+        last_name,
+        born_date,
+        email,
+        address_id
+    )
+VALUES (
+        'John',
+        'Smith',
+        '2000-05-15',
+        'john.smith@example.com',
+        1
+    ),
     (
-        'Josef',
-        'Hracicka',
-        'josef.hracicka@gmail.com',
+        'Emily',
+        'Johnson',
+        '1999-07-20',
+        'emily.johnson@example.com',
         2
     ),
     (
-        'Karel',
-        'Pohadkar',
-        'karel.pohadkar@gmail.com',
+        'Michael',
+        'Williams',
+        '2001-03-10',
+        'michael.williams@example.com',
         3
     ),
-    ('Filip', 'Buchta', 'filip.buchta@gmail.com', 4),
     (
-        'Filip',
-        'Pohadkomil',
-        'filip.ohadkomil@seznam.cz',
-        5
-    ),
-    (
-        'Jaroslav',
-        'Zmrzlina',
-        'jaroslav.zmrzlina@gmail.com',
-        6
-    ),
-    (
-        'Karel',
-        'Pohadkar',
-        'karel.pohadkar@gmail.com',
-        7
-    ),
-    ('Jakub', 'Zazrak', 'jakub.Zazrak@gmail.com', 8),
-    (
-        'Arnost',
-        'Mrkvicka',
-        'arnost.mrkvicka@mrkev.cz',
-        9
-    ),
-    ('Karel', 'Vopicka', 'karel.vopicka.com', 10);
-
--- 
-INSERT INTO
-    trainer (first_name, last_name, email, expertise_id)
-VALUES
-    ('Adam', 'Bublina', 'adam.bublina@sdacdmy.com', 1),
-    ('Petr', 'Cmoudik', 'petr.cmoudik@sdacdemy.com', 1),
-    (
-        'Jan',
-        'Duchacek',
-        'jan.duchacek@sdacdemy.com',
-        'GIT'
-    ),
-    (
-        'David',
-        'Srdicko',
-        'david.srdicko@sdacdemy.com',
+        'Sarah',
+        'Brown',
+        '1998-12-25',
+        'sarah.brown@example.com',
         4
     ),
     (
-        'Robert',
-        'Rumburak',
-        'petr.rumburak@sdacdemy.com',
-        2
+        'David',
+        'Jones',
+        '2002-08-08',
+        'david.jones@example.com',
+        5
+    ),
+    (
+        'Jessica',
+        'Garcia',
+        '1997-04-30',
+        'jessica.garcia@example.com',
+        6
+    ),
+    (
+        'Daniel',
+        'Martinez',
+        '2000-11-11',
+        'daniel.martinez@example.com',
+        7
+    ),
+    (
+        'Laura',
+        'Rodriguez',
+        '1999-02-14',
+        'laura.rodriguez@example.com',
+        8
+    ),
+    (
+        'James',
+        'Lopez',
+        '1998-06-05',
+        'james.lopez@example.com',
+        9
+    ),
+    (
+        'Olivia',
+        'Wilson',
+        '2001-09-21',
+        'olivia.wilson@example.com',
+        10
+    ),
+    (
+        'Matthew',
+        'Anderson',
+        '2000-01-12',
+        'matthew.anderson@example.com',
+        11
+    ),
+    (
+        'Sophia',
+        'Thomas',
+        '1999-10-10',
+        'sophia.thomas@example.com',
+        12
+    ),
+    (
+        'Andrew',
+        'Taylor',
+        '1998-03-18',
+        'andrew.taylor@example.com',
+        13
+    ),
+    (
+        'Hannah',
+        'Moore',
+        '2002-05-07',
+        'hannah.moore@example.com',
+        14
+    ),
+    (
+        'Joshua',
+        'Jackson',
+        '2000-08-29',
+        'joshua.jackson@example.com',
+        15
+    ),
+    (
+        'Victoria',
+        'Martin',
+        '1997-11-02',
+        'victoria.martin@example.com',
+        16
+    ),
+    (
+        'Ryan',
+        'Lee',
+        '2001-12-19',
+        'ryan.lee@example.com',
+        17
+    ),
+    (
+        'Megan',
+        'Perez',
+        '1998-07-15',
+        'megan.perez@example.com',
+        18
+    ),
+    (
+        'Ethan',
+        'White',
+        '2002-09-13',
+        'ethan.white@example.com',
+        19
+    ),
+    (
+        'Chloe',
+        'Harris',
+        '2000-04-09',
+        'chloe.harris@example.com',
+        20
+    ),
+    (
+        'Anthony',
+        'Clark',
+        '1999-11-25',
+        'anthony.clark@example.com',
+        21
+    ),
+    (
+        'Grace',
+        'Lewis',
+        '1997-03-03',
+        'grace.lewis@example.com',
+        22
+    ),
+    (
+        'Nathan',
+        'Young',
+        '2001-06-17',
+        'nathan.young@example.com',
+        23
+    ),
+    (
+        'Isabella',
+        'Walker',
+        '2000-02-24',
+        'isabella.walker@example.com',
+        24
+    ),
+    (
+        'Tyler',
+        'Hall',
+        '1998-10-30',
+        'tyler.hall@example.com',
+        25
+    ),
+    (
+        'Emma',
+        'Allen',
+        '1999-08-05',
+        'emma.allen@example.com',
+        26
+    ),
+    (
+        'Brandon',
+        'King',
+        '2002-01-22',
+        'brandon.king@example.com',
+        27
+    ),
+    (
+        'Lily',
+        'Scott',
+        '2000-07-14',
+        'lily.scott@example.com',
+        28
+    ),
+    (
+        'Zachary',
+        'Adams',
+        '1998-05-19',
+        'zachary.adams@example.com',
+        29
+    ),
+    (
+        'Natalie',
+        'Baker',
+        '1997-12-11',
+        'natalie.baker@example.com',
+        30
     );
-
 -- 
-INSERT INTO
-    course (course_name, trainer_id, start_date, end_date)
-VALUES
-    (
-        'Python Basics',
-        1,
-        '2024-11-15 09:00:00',
-        '2024-12-15 16:00:00'
+INSERT INTO trainer (first_name, last_name, email, address_id)
+VALUES (
+        'Alice',
+        'Taylor',
+        'alice.taylor@example.com',
+        31
     ),
     (
-        'GIT',
-        3,
-        '2025-01-10 09:00:00',
-        '2025-02-10 16:00:00'
+        'Benjamin',
+        'Moore',
+        'benjamin.moore@example.com',
+        32
     ),
     (
-        'SQL',
-        4,
-        '2025-03-05 09:00:00',
-        '2025-04-05 16:00:00'
+        'Charlotte',
+        'Davis',
+        'charlotte.davis@example.com',
+        33
     ),
     (
-        'Machine Learning',
-        1,
-        '2025-05-01 09:00:00',
-        '2025-06-01 16:00:00'
+        'Daniel',
+        'Clark',
+        'daniel.clark@example.com',
+        34
     ),
-    (
-        'Python Advanced',
-        5,
-        '2025-04-01 09:00:00',
-        '2025-07-01 16:00:00'
-    ),
-    (
-        'Database Design',
-        4,
-        '2025-06-15 09:00:00',
-        '2025-07-15 16:00:00'
-    );
-
---
-INSERT INTO
-    student_course_signup (course_id, student_id)
-VALUES
+    ('Ella', 'Brown', 'ella.brown@example.com', 35);
+-- 
+INSERT INTO trainer_assigments (trainer_id, title_id)
+VALUES -- První trenér učí dva kurzy
     (1, 1),
     (1, 2),
-    (1, 3),
-    (1, 4),
-    (1, 5),
-    (1, 6),
-    (1, 7),
-    (1, 8),
-    (5, 9),
-    (5, 10),
-    (2, 1),
-    (2, 2),
+    -- Druhý trenér učí jeden kurz
     (2, 3),
-    (2, 4),
-    (2, 5),
-    (2, 6),
-    (2, 7),
-    (2, 8),
-    (2, 9),
-    (2, 10),
-    (3, 2),
+    -- Třetí trenér učí dva kurzy
     (3, 4),
+    (3, 5),
+    -- Čtvrtý trenér učí jeden kurz
+    (4, 6),
+    -- Pátý trenér učí dva kurzy
+    (5, 7),
+    (5, 8);
+-- 
+INSERT INTO course(title_id, trainer_id, start_date, end_date)
+VALUES -- 
+    -- 
+    -- Python Basic - 3 mesice
+    (1, 1, '2025-01-05', '2025-03-05'),
+    -- Python Advanced - 3 mesice
+    (2, 1, '2025-03-10', '2025-06-05'),
+    -- GIT - 1 mesic
+    (3, 2, '2025-03-10', '2025-04-10'),
+    -- SQL - 1 mesic
+    (4, 3, '2025-01-05', '2025-02-04'),
+    -- DB Design - 2 mesice
+    (5, 3, '2025-02-05', '2025-04-05'),
+    -- Front End - 3 mesice
+    (6, 4, '2025-05-01', '2025-07-30'),
+    -- Machine Learning - 2 mesice
+    (7, 5, '2025-06-07', '2025-08-30'),
+    -- Python good practise - 1 mesic
+    (8, 5, '2025-06-07', '2025-06-30');
+--
+INSERT INTO student_signup(course_id, student_id)
+VALUES -- studenti
+    -- GIT course --
+    (3, 1),
+    (3, 2),
+    (3, 3),
+    (3, 4),
+    (3, 5),
     (3, 6),
+    (3, 7),
     (3, 8),
+    (3, 9),
     (3, 10),
-    (6, 1),
-    (6, 3),
-    (6, 5),
-    (6, 7),
-    (6, 9),
-    (4, 9),
-    (4, 10);
+    (3, 11),
+    (3, 12),
+    (3, 13),
+    (3, 14),
+    (3, 15),
+    (3, 16),
+    (3, 17),
+    (3, 18),
+    (3, 19),
+    (3, 20),
+    (3, 21),
+    (3, 22),
+    (3, 23),
+    (3, 24),
+    (3, 25),
+    (3, 26),
+    (3, 27),
+    (3, 28),
+    (3, 29),
+    (3, 30);
+- -
