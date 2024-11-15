@@ -362,4 +362,81 @@ VALUES -- studenti
     (3, 28),
     (3, 29),
     (3, 30);
-- -
+-- 
+INSERT INTO student_signup(course_id, student_id)
+VALUES -- studenti
+    -- Python basic course
+    (1, 1),
+    (1, 3),
+    (1, 5),
+    (1, 7),
+    (1, 9),
+    (1, 11),
+    (1, 13),
+    (1, 15),
+    (1, 17),
+    (1, 19),
+    (1, 21),
+    (1, 23),
+    (1, 25),
+    (1, 27),
+    (1, 29);
+--
+INSERT INTO student_signup(course_id, student_id)
+VALUES -- studenti
+    -- Python advanced course
+    (2, 1),
+    (2, 3),
+    (2, 5),
+    (2, 7),
+    (2, 9),
+    (2, 11),
+    (2, 13),
+    (2, 15),
+    (2, 17),
+    (2, 19),
+    (2, 21),
+    (2, 23),
+    (2, 25),
+    (2, 27),
+    (2, 29);
+-- 
+INSERT INTO student_signup(course_id, student_id)
+VALUES -- studenti
+    -- SQL
+    (4, 2),
+    (4, 4),
+    (4, 6),
+    (4, 8),
+    (4, 10),
+    (4, 12),
+    (4, 14),
+    (4, 16),
+    (4, 18),
+    (4, 20),
+    (4, 22),
+    (4, 24),
+    (4, 26),
+    (4, 28),
+    (4, 30);
+-- 
+INSERT INTO student_signup(course_id, student_id)
+VALUES -- studenti
+    -- DB DESIGN
+    (5, 2),
+    (5, 4),
+    (5, 6),
+    (5, 8),
+    (5, 10),
+    (5, 12),
+    (5, 14),
+    (5, 16),
+    (5, 18),
+    (5, 20),
+    (5, 22),
+    (5, 24),
+    (5, 26),
+    (5, 28),
+    (5, 30);
+--
+ 
