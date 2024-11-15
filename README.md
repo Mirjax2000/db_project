@@ -33,6 +33,8 @@ Databaze Postgres<br>
 draw.io<br>
 vs-code<br>
 SQL Tools extension
+pgAdmin 4
+SQL Shell (psql)
 
 ### Co jsem se zde naucil
 
@@ -40,9 +42,11 @@ SQL Tools extension
 2. Tyto diagramy nasledne pouzit pro kodovani SQL.
 3. Primarni a cizi klice, typovou anotaci atd.
 4. Pripravit data k naplneni databaze.
-5. Pripravit VIEWS.
-6. QUERIES porostrednictvim, JOINu, GROUP BY, agregaci atd.
-7. Celkovou spravu nad jednoduchou databazi - CRUD.
+6. Transakce
+7. Pripravit VIEWS.
+8. QUERIES porostrednictvim, JOINu, GROUP BY, agregaci atd.
+9. Celkovou spravu nad jednoduchou databazi - CRUD.
+10. Zakladni ovladani v pgAdmin 4 a SQL Shellu.
 
 ### Author
 
