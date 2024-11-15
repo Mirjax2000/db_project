@@ -7,3 +7,7 @@
 -- priklad 2 seznam studentu / new_views
 -- SELECT *
 -- FROM student_list;
+-- 
+-- priklad 3 vypis ucitelu / new_views
+-- SELECT *
+-- FROM trainer_list;
